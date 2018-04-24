@@ -179,7 +179,7 @@ alias dgst="openssl dgst -hex -sha1 | cut -c -10"
 
 from ``.bash_profile``.
 
-Add another line to put a directory on your $PATH:
+Add another line to put a directory on your ``$PATH``:
 
 ```
 export PATH=$HOME/bin:$PATH
@@ -187,7 +187,7 @@ export PATH=$HOME/bin:$PATH
 
 and make a new directory called ``bin`` in your home directory.
 
-Now write the following two lines to a file and save it in ~/bin/pw
+Now write the following two lines to a file and save it in ``~/bin/pw``
 
 ```
 #!/bin/sh

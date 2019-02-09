@@ -238,4 +238,46 @@ You can even temporarily change the master password:
 
 Relaunching Terminal will restore the default.
 
+#### Python
 
+Here is a Python script to do it (>= Python 3.6).  We use the [secrets](https://docs.python.org/3/library/secrets.html) module.
+
+```
+# >= Python 3.6
+from secrets import choice as ch
+
+# no 0OIl+/
+b58  = '123456789ABCDEFGHJKLMNPQRSTUVWXYZ'
+b58 +=         'abcdefghijkmnopqrstuvwxyz'
+
+n = 30
+L = [ch(b58) for i in range(n)]
+print(''.join(L))
+```
+
+Output
+
+```
+> python3 script.py 
+ZGRq42wzvZfueK4Gj6uAufNU3mZJXb
+> python3 script.py 
+pEGyJakPK5XzD6tSjQLBwTA2gC25KB
+> python3 script.py 
+SttHvZtRrBSqDT44PoNCkMUdCEtRPY
+>
+```
+
+In the interpreter:
+
+```
+> python3
+Python 3.6.4 (default, Jan 18 2018, 18:09:57) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import secrets
+>>> secrets.token_hex(10)
+'cddf477fe9ce66991372'
+>>> secrets.token_urlsafe(10)
+'dELXwGTgC4xMTQ'
+>>>
+```

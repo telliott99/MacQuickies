@@ -10,12 +10,10 @@ However, you can't do any of this if you're not an Admin.
 [link1](https://support.apple.com/en-us/HT204012)
 [link2](https://www.howtogeek.com/howto/35132/how-to-enable-the-root-user-in-mac-os-x/)
 
-```
-Users & Groups
-Authenticate
-Click Login Options
-Click on Join (Network Account Server)
-```
+- Users & Groups
+- Authenticate
+- Click Login Options
+- Click on Join (Network Account Server)
 
 <img src="figs/root1.png" style="width: 400px;" />
 
@@ -26,10 +24,10 @@ Authenticate (in that window)
 
 <img src="figs/root2.png" style="width: 400px;" />
 
-```
-Edit
-Change Root Password or Enable Root User
-```
+
+- Edit
+- Change Root Password or Enable Root User
+
 
 #### Command line
 
@@ -59,7 +57,8 @@ dsenableroot:: ***Successfully disabled root user.
 
 ### Things to do as root
 
-#### sudo stuff
+#### su stuff
+
 
 ```
 > su

@@ -24,7 +24,7 @@ I've *never* used Safari to go to github.com on my phone.
 
 #### Keychain:  macOS
 
-I do use the Keychain on macOS (10.3.3 High Sierra) to store usernames and passwords.  
+I do use the Keychain on macOS (10.13.3 High Sierra) to store usernames and passwords.  
 
 In Safari Preferences, I have checked the appropriate box:  Autofill > User names and passwords.
 

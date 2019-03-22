@@ -1,6 +1,6 @@
 ### Homebrew
 
-I love [Homebrew](https://brew.sh).  I have never had an issue with it, and I had plenty with Fink and some with Macports.
+I love [Homebrew](https://brew.sh).  I have never had an issue with it, and I had nasty problems with Fink and more than a few with Macports.
 
 I decided that if I want to test (one more time) how to install Homebrew and get my computing environment working, I need to uninstall it first.  :(
 
@@ -19,7 +19,7 @@ drwxr-xr-x     2 root  wheel     68 Jul  9 16:30 local
 ...
 ```
 
-Obviously, that is not what we want!
+Obviously, that is not what we want!  We want the user (an admin) to be the owner of ``/usr/local``.
 
 ```
 > sudo chown telliott local
